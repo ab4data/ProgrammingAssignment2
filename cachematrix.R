@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 ##
-## This function 
+## 20160313 - ab4data - This function sets up the list to be used in the function
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -20,7 +20,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-
+##
+## 20160313 - ab4data - This function detmines if the 'inverse' had already been created/exists
+## ... and if not then it produces the inverse....
+## then returns the inverse
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
